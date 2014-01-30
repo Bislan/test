@@ -1,0 +1,4 @@
+RewriteEngine on
+# On redirige toutes les URL vers index 
+# en passant la chaîne en valeur de 'params'
+RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ index.php?params=$1
